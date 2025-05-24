@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "sass": "^1.77.6",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.6"
+  },
+  "scripts": {
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+}
