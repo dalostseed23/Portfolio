@@ -22,8 +22,7 @@ body {
 }
 
 nav.navbar {
-  background-color: rgba(10, 10, 10, 0.85);
-  border-bottom: 1px solid #444;
+  background-color: rgba(0, 0, 0, 1);
   font-family: 'Cinzel', serif;
 }
 
@@ -40,10 +39,10 @@ nav.navbar .nav-link:hover {
 .card {
   background-color: #2a2a2a;
   border: 1px solid #444;
-  border-radius: 8px;
+  border-radius: 3%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
   font-family: 'Cinzel', serif;
-  color: #ddd;
+  width: 18rem;
 }
 
 .card .card-body {
@@ -51,7 +50,7 @@ nav.navbar .nav-link:hover {
 }
 
 .card-title {
-  color: #c9a66b; 
+  color: #bfb0a1;
   font-weight: 700;
 }
 
@@ -61,7 +60,7 @@ nav.navbar .nav-link:hover {
 }
 
 .btn-primary {
-  background-color: #5a0d0d; 
+  background-color: #8b0000;  
   border: none;
   font-weight: bold;
   transition: background-color 0.3s ease;
@@ -73,13 +72,13 @@ nav.navbar .nav-link:hover {
 
 h1 {
   font-family: 'Cinzel', serif;
-  color: #d4c1a3;
+  color: #bfb0a1;
   text-shadow: 1px 1px 2px #000;
 }
 
 p {
   font-family: 'Georgia', serif;
-  color: #bbb;
+  color: #aaa;
 }
 
 .card-img-top {
