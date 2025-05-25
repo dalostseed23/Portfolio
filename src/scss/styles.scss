@@ -1,13 +1,4 @@
 @import "~bootstrap/scss/bootstrap";
-
-.oval-img {
-    width: 150px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50% / 40%;
-    border : 2px solid #ccc;
-}
-
 .vignette {
   position: fixed;
   top: 0;
@@ -18,7 +9,10 @@
 }
 
 body {
-    background-color: #1b1b1b;
+  background-color: #111;
+  margin: 0;
+  font-family: 'Georgia', serif;
+  scroll-behavior: smooth;
 }
 
 nav.navbar {
@@ -34,29 +28,6 @@ nav.navbar .nav-link {
 
 nav.navbar .nav-link:hover {
   color: #8b0000; 
-}
-
-.card {
-  background-color: #2a2a2a;
-  border: 1px solid #444;
-  border-radius: 3%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-  font-family: 'Cinzel', serif;
-  width: 18rem;
-}
-
-.card .card-body {
-  background-color: #312f2c;
-}
-
-.card-title {
-  color: #bfb0a1;
-  font-weight: 700;
-}
-
-.card-text {
-  font-style: italic;
-  color: #aaa;
 }
 
 .btn-primary {
@@ -77,11 +48,41 @@ h1 {
 }
 
 p {
-  font-family: 'Georgia', serif;
   color: #aaa;
 }
 
-.card-img-top {
-  height: 200px;     
-  object-fit: cover;   
+.fullscreen {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.personal h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.personal p {
+  max-width: 1500px;
+}
+
+.project {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 2rem;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
 }

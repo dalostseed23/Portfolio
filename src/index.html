@@ -27,69 +27,45 @@
         </nav>
 
 
-        <div id="about" class="container mt-5 justify-content-center" style="background-color: rgb(20, 20, 20); border-radius: 5%;">
-            <div class="row" style="padding-left: 2rem; padding-right: 2rem; padding-top: 2rem; padding-bottom: 2rem;">
-                <div class="col-md-3">
-                    <img src="/pictures/20240807_173401.jpg" alt="Image of Sebastian Del Pino Mendivil" class="img-fluid oval-img">
-                </div>
-                <div class="col-md-9">
-                    <h1>Sebastian Del Pino Mendivil</h1>
-                    <p>I'm a Computer Science student at the University of Ottawa with a strong passion for computer vision and graphics. Currently, I'm taking a UI design course where I'm learning essential design elements and concepts. I enjoy exploring how technology can create amazing visual experiences and solve real-world problems through images and 3D graphics. Outside of school, I'm into music and reading, which help me stay creative and inspired!</p>
-                </div>
+        <section id="about" class="fullscreen">
+            <div class="personal">
+                <h1>Sebastian Del Pino Mendivil</h1>
+                <p>I'm a Computer Science student at the University of Ottawa with a strong passion for computer vision and graphics. Currently, I'm taking a UI design course where I'm learning essential design elements and concepts. I enjoy exploring how technology can create amazing visual experiences and solve real-world problems through images and 3D graphics. Outside of school, I'm into music and reading, which help me stay creative and inspired!</p>
             </div>
-        </div>
+        </section>
 
-
-        <div id="projects" class="container mt-5 justify-content-center">
-            <h1>My Projects</h1>
-        </div>
-
-        <div class="container mt-5 justify-content-center">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="/pictures/pexels-ron-lach-10213681.jpg" class="card-img-top" alt="Service Website">
-                        <div class="card-body">
-                        <h5 class="card-title">Service Website</h5>
-                        <p class="card-text">Coming soon...</p> 
-                        <a href="service.html" class="btn btn-primary">View Project</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="pictures/pexels-eye4dtail-374914.jpg" class="card-img-top" alt="Game Website">
-                        <div class="card-body">
-                        <h5 class="card-title">Game Website</h5>
-                        <p class="card-text">Coming soon...</p>
-                            <a href="game.html" class="btn btn-primary">View Project</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="pictures/pexels-emirkhan-bal-221704-953864.jpg" class="card-img-top" alt="E-commerce Website">
-                        <div class="card-body">
-                        <h5 class="card-title">E-Commerce Website</h5>
-                        <p class="card-text">Coming soon...</p>
-                            <a href="ecommerce.html" class="btn btn-primary">View Project</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="pictures/pexels-mendez-692552722-32193975.jpg" class="card-img-top" alt="Sport Analytics Website">
-                        <div class="card-body">
-                        <h5 class="card-title">Sport Analytics Website</h5>
-                        <p class="card-text">Coming soon...</p> 
-                        <a href="sport.html" class="btn btn-primary">View Project</a>
-                        </div>
-                    </div>
-                </div>
+        <section id="projects" class="project" style="background-image: url('/pictures/pexels-ron-lach-10213681.jpg');">
+            <div class="project-overlay">
+                <h1>Service Website</h1>
+                <p>Coming soon...</p>
+                <a class="btn btn-primary" href="service.html">View Project</a>
             </div>
-        </div> 
+        </section>
 
-        <div class = "container mt-5 justify-content-center"></div> 
+        <section class="project" style="background-image: url('/pictures/pexels-eye4dtail-374914.jpg');">
+            <div class="project-overlay">
+                <h1>Game Website</h1>
+                <p>Coming soon...</p>
+                <a class="btn btn-primary" href="game.html">View Project</a>
+            </div>
+        </section>
+
+        <section class="project" style="background-image: url('/pictures/pexels-emirkhan-bal-221704-953864.jpg');">
+            <div class="project-overlay">
+                <h1>E-Commerce Website</h1>
+                <p>Coming soon...</p>
+                <a class="btn btn-primary" href="commerce.html">View Project</a>
+            </div>
+        </section>
+
+        <section class="project" style="background-image: url('/pictures/pexels-mendez-692552722-32193975.jpg');">
+            <div class="project-overlay">
+                <h1>Sport Analytics Website</h1>
+                <p>Coming soon...</p>
+                <a class="btn btn-primary" href="sport.html">View Project</a>
+            </div>
+        </section>
+
         <script type="module" src="./js/main.js"></script>
     </body>   
 </html>
