@@ -18,8 +18,6 @@ export default {
     rollupOptions: {
       input: {
         main: path.resolve(__dirname, 'src/index.html'),
-        service: path.resolve(__dirname, 'src/service.html'),
-        game: path.resolve(__dirname, 'src/game.html'),
         commerce: path.resolve(__dirname, 'src/commerce.html'),
         sport: path.resolve(__dirname, 'src/sport.html')
       },
