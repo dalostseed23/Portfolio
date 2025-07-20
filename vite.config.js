@@ -17,8 +17,7 @@ export default {
   build: {
     rollupOptions: {
       input: {
-        main: path.resolve(__dirname, 'src/index.html'),
-        sport: path.resolve(__dirname, 'src/sport.html')
+        main: path.resolve(__dirname, 'src/index.html')
       },
     },
   }
